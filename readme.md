@@ -114,7 +114,7 @@ A comprehensive syllabus for mastering DevOps Technologies in 45 Days.
 - Slave node setup & delivery pipelines  
 - Plugin & notification management
 
-## Bonus Module: 9️⃣ Observability & GitOps
+## 9️⃣ Bonus Module: Observability & GitOps
 
 <b>Helm</b>:
 - What Helm is and why package manager for Kubernetes matters  
