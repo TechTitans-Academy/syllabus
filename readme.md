@@ -114,6 +114,23 @@ A comprehensive syllabus for mastering DevOps Technologies in 45 Days.
 - Slave node setup & delivery pipelines  
 - Plugin & notification management
 
+## Bonus Module: 9️⃣ Observability & GitOps
+
+<b>Helm</b>:
+- What Helm is and why package manager for Kubernetes matters  
+- Charts, releases, repositories    
+- Deploying applications with Helm (single command install/upgrade)  
+
+<b>ArgoCD</b>:
+- Installation of ArgoCD on Kubernetes.
+- Understanding of UI.
+- Deployment of single Application on ArgoCD.
+
+<b>Grafana</b>:
+- Why do we use the Grafana? How to install it in k8s cluster?
+- Add the DataSource such as "Prometheus" and "Loki".
+- Monitor the Application via Gragana.
+
 ---
 
 > **Note:** Note: The syllabus is subject to change based on requirements. Content may be added or removed to ensure the relevance and effectiveness of the course.
