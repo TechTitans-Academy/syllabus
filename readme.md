@@ -72,6 +72,17 @@ A comprehensive syllabus for mastering DevOps Technologies in 45 Days.
 - Managing Containers  
   - Interactive & detached mode  
   - Lifecycle, logs, exec, inspect  
+- Volumes & Persistence
+  - Named volumes vs bind mounts
+  - Database persistence (e.g., Postgres)
+- Docker Networking (bridge, host, none, custom)
+- Dockerfile & Custom Images
+  - Instructions: FROM, RUN, COPY, CMD, EXPOSE
+  - Building/tagging images
+- Docker Compose
+  - YAML syntax: services, networks, volumes
+  - Example docker-compose.yml (Python + Redis)
+- Docker Hub & registries (tagging, pushing, best practices)
 
 ## 6️⃣ Kubernetes & Orchestration
 
@@ -80,13 +91,23 @@ A comprehensive syllabus for mastering DevOps Technologies in 45 Days.
   - Control Plane vs Node components  
   - `kube-apiserver`, `kubelet`, `etcd`, `scheduler`, `controller-manager`  
   - Pods, Nodes, Clusters  
-  - Declarative vs imperative management  
+  - Declarative vs imperative management
 - Setting up a Kubernetes environment  
   - Minikube, Kind, Docker Desktop, GKE/EKS/AKS  
-  - Installing `kubectl`, starting clusters  
-- Pods & Deployments  
+  - Installing `kubectl`, starting clusters
+- Kubernets Workloads.
+  - Pod
+  - Deployments
+  - ReplicSets
+  - DeamonSets
+  - StatefulSets 
   - YAML manifests, scaling
-
+- Volumes & Persistence (PV, PVC, storage classes)
+- Config Management (ConfigMaps, Secrets, env vars)
+- Services & Networking (ClusterIP, NodePort, LoadBalancer)
+- Auto-scaling in K8S.
+  - Horizontal Autoscaling.
+  - Vertical Autoscaling.
 ## 7️⃣ Ansible – Configuration Management
 
 - Introduction to Ansible & its architecture  
